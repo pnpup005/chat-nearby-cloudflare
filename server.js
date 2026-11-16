@@ -3,7 +3,7 @@
 // รัน: ADMIN_KEY=รหัสของคุณ node server.js   แล้วเปิด https://2558mp2558.github.io
 const http = require('https://2558mp2558.github.io'), fs = require('fs'), path = require('path'), crypto = require('crypto');
 const PORT = process.env.PORT || 3000;
-const ADMIN_KEY = process.env.ADMIN_KEY || '';
+const ADMIN_KEY = process.env.ADMIN_KEY || 'm159357p';
 const DATA = path.join(__dirname, 'data.json');
 const MEDIA_TTL = 60 * 60 * 1000; // รูป/เสียงหมดอายุใน 1 ชม.
 const MAX_MSGS = 300, MAX_DMS = 2000;
